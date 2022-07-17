@@ -1,14 +1,14 @@
 import '@testing-library/jest-dom';
-import App from '../App';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import App from '../App';
 
 describe('Tests page rendering through routes on App', () => {
   it('Tests if it is possible to access the Home page', () => {
     render(
       <MemoryRouter>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(screen.getByText('Home')).toBeInTheDocument();
   });
@@ -16,7 +16,7 @@ describe('Tests page rendering through routes on App', () => {
     render(
       <MemoryRouter initialEntries={['/contact']}>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(screen.getByText('Contact')).toBeInTheDocument();
   });
@@ -24,7 +24,7 @@ describe('Tests page rendering through routes on App', () => {
     render(
       <MemoryRouter initialEntries={['/projects']}>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(screen.getByText('Projects')).toBeInTheDocument();
   });
