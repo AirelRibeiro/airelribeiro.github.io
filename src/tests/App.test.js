@@ -20,4 +20,12 @@ describe('Tests page rendering through routes on App', () => {
     );
     expect(screen.getByText('Contact')).toBeInTheDocument();
   });
+  it('Tests if it is possible to access the Projects page', () => {
+    render(
+      <MemoryRouter initialEntries={['/projects']}>
+        <App />
+      </MemoryRouter>
+    );
+    expect(screen.getByText('Projects')).toBeInTheDocument();
+  });
 });
