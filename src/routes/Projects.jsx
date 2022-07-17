@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <p>Project</p>
+    <p>Projects</p>
     
   );
 }
