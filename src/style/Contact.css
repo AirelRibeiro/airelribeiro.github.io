@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.contact-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 12vh;
+  width: 65vw;
+}
+
+.form {
+  background-color: rgba(253, 242, 227, 0.6);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bebas Neue', cursive;
+  height: 65vh;
+  justify-content: center;
+  width: 40%;
+}
+
+.contact-div div {
+  background-color: rgba(253, 242, 227, 0.6);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.contact-div div h2 {
+  color: rgb(30, 28, 34);
+  font-family: 'Bebas Neue', cursive;
+  margin: auto;
+  text-align: center;
+  width: 85%;
+}
+
+.contact-div div div {
+  background: none;
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+label  {
+  margin: auto;
+  width: 85%;
+}
+
+.input-text {
+  border: none;
+  border-radius: 10px;
+  font-family: 'Bebas Neue', cursive;
+  height: 5vh;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.textarea {
+  border: none;
+  border-radius: 10px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: large;
+  letter-spacing: 0.1em;
+  margin: auto;
+  padding-top: 10px;
+  resize: none;
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  background-color: #2629d6;
+  border: none;
+  border-radius: 10px;
+  color: antiquewhite;
+  font-family: 'Bebas Neue', cursive;
+  font-size: medium;
+  font-weight: 600;
+  height: 5vh;
+  letter-spacing: 0.2em;
+  margin: auto;
+  padding: 2px;
+  width: 10vw;
+}
+
+.icon {
+  filter: invert(26%) sepia(53%) saturate(4907%) hue-rotate(232deg) brightness(79%) contrast(117%);
+  height: 10vh;
+  width: 10vh;
+}

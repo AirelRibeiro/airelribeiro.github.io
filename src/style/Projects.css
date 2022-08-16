@@ -1,0 +1,26 @@
+.projects {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+
+.hammer-icon {
+  height: 30vh;
+  width: 30vh;
+  animation: hammer infinite 1.5s linear;
+}
+
+@keyframes hammer {
+  from {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-100deg) translateX(25px);
+  }
+  to {
+    transform: rotate(0);
+  }
+}

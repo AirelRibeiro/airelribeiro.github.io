@@ -1,0 +1,17 @@
+.skills-div {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 15vh;
+  width: 75vw;
+}
+
+.skills-icons {
+  background-color: rgba(253, 242, 227, 0.6);
+  border-radius: 15%;
+  height: 20vh;
+  margin: 1.0em;
+  padding: 1em;
+  width: 20vh;
+}
