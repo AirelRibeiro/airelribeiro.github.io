@@ -1,7 +1,16 @@
+import hammer from '../icons/hammer.svg';
+import '../style/Projects.css';
+
 function Projects() {
   return (
-    <p>Projects</p>
-    
+    <div className="projects">
+      <h1>Página em construção...</h1>
+      <img
+        src={hammer}
+        alt="git-icon"
+        className="hammer-icon"
+      />
+    </div>
   );
 }
 

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.home {
+  height: 100vh;
+  margin: auto;
+  width: 75vw;
+  z-index: 1;
+}
+
+.home div {
+  background-color: rgba(253, 242, 227, 0.6);
+  border-radius: 50px;
+  color: rgb(26, 0, 75);
+  font-family: 'Bebas Neue', cursive;
+  margin: auto;
+  margin-top: 12vh;
+  padding: 3.5%;
+  text-align: justify;
+  width: 65vw;
+}
+
+.home div p {
+  font-size: 2.2em;
+  width: 60vw;
+}
