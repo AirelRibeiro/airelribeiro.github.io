@@ -10,7 +10,7 @@ describe('Tests page rendering through routes on App', () => {
         <App />
       </MemoryRouter>,
     );
-    expect(screen.getByText('Home')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Home' })).toBeInTheDocument();
   });
   it('Tests iif it is possible to access the Contact page', () => {
     render(
@@ -18,7 +18,7 @@ describe('Tests page rendering through routes on App', () => {
         <App />
       </MemoryRouter>,
     );
-    expect(screen.getByText('Contact')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Contact' })).toBeInTheDocument();
   });
   it('Tests if it is possible to access the Projects page', () => {
     render(
@@ -26,6 +26,6 @@ describe('Tests page rendering through routes on App', () => {
         <App />
       </MemoryRouter>,
     );
-    expect(screen.getByText('Projects')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Projects' })).toBeInTheDocument();
   });
 });
