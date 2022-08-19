@@ -1,17 +1,4 @@
-.app::before {
-  background-image: url('https://cdn.pixabay.com/photo/2022/06/30/12/51/brain-7293638_960_720.jpg');
-  background-size: cover;
-  content: "";
-  opacity: 0.9;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
 .menu {
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
