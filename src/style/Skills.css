@@ -1,17 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', cursive;
+  position: absolute;
+  text-transform: uppercase;
+  top: 15vh;
+}
+
 .skills-div {
-  flex-wrap: wrap;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin: auto;
   margin-top: 15vh;
   width: 75vw;
 }
 
-.skills-icons {
+.skill-icons {
   background-color: rgba(253, 242, 227, 0.6);
   border-radius: 15%;
   height: 20vh;
   margin: 1.0em;
   padding: 1em;
   width: 20vh;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.938);
+  height: fit-content;
+  left: 50%;
+  padding: 1px 2vw;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+.description h3 {
+  margin: 5vh auto;
 }
