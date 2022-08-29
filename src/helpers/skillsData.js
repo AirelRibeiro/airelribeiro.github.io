@@ -24,7 +24,7 @@ const skills = [
   {
     name: 'express',
     icon: express,
-    description: 'Express é um framework para aplicativo da web do Node.js, ele facilita requisições de diferentes verbos HTTP em diferentes URLs. O Express é o framework Node mais popular e a biblioteca inexplícita de diversos outros frameworks.',
+    description: 'Express é um framework para aplicativo da web do Node.js, ele facilita requisições de diferentes verbos HTTP em diferentes URLs; muito popular, ele é a biblioteca inexplícita de diversos outros frameworks.',
   },
   {
     name: 'my_sql',
