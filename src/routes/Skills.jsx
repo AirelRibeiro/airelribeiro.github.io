@@ -41,8 +41,8 @@ export default function Skills() {
             className="skill-icons"
             onMouseOver={() => showDescription(i)}
             onMouseOut={hiddeDescription}
-            onFocus=""
-            onBlur=""
+            onFocus={() => {}}
+            onBlur={() => {}}
           />
           {showSkill[i] === true && (
             <div className="description">
