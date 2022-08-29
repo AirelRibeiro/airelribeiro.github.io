@@ -1,75 +1,56 @@
-import React from 'react';
-import docker from '../icons/docker.svg';
-import gitHub from '../icons/github.svg';
-import git from '../icons/git.svg';
-import bash from '../icons/gnubash.svg';
-import html from '../icons/html5.svg';
-import js from '../icons/javascript.svg';
-import jest from '../icons/jest.svg';
-import mysql from '../icons/mysql.svg';
-import react from '../icons/react.svg';
-import redux from '../icons/redux.svg';
-import rtl from '../icons/testinglibrary.svg';
+import React, { useEffect, useState } from 'react';
+import skills from '../helpers/skillsData';
 import '../style/Skills.css';
 
 export default function Skills() {
+  const [showSkill, setShowSkill] = useState([]);
+  const [showTitle, setShowTitle] = useState(true);
+
+  const loadingSkills = () => {
+    const arrSkills = skills.map((s, i) => i);
+    setShowSkill(arrSkills);
+  };
+
+  useEffect(() => {
+    loadingSkills();
+  }, []);
+
+  const showDescription = (index) => {
+    const newArr = showSkill.map((s, i) => {
+      if (i === index) return true;
+      return i;
+    });
+    setShowSkill(newArr);
+    setShowTitle(false);
+  };
+
+  const hiddeDescription = () => {
+    const newArr = showSkill.map((s, i) => i);
+    setShowSkill(newArr);
+    setShowTitle(true);
+  };
+
   return (
     <div className="skills-div">
-      <img
-        src={bash}
-        alt="bash-icon"
-        className="skills-icons"
-      />
-      <img
-        src={git}
-        alt="git-icon"
-        className="skills-icons"
-      />
-      <img
-        src={gitHub}
-        alt="gitHub-icon"
-        className="skills-icons"
-      />
-      <img
-        src={js}
-        alt="js-icon"
-        className="skills-icons"
-      />
-      <img
-        src={html}
-        alt="html-icon"
-        className="skills-icons"
-      />
-      <img
-        src={jest}
-        alt="jest-icon"
-        className="skills-icons"
-      />
-      <img
-        src={rtl}
-        alt="rtl-icon"
-        className="skills-icons"
-      />
-      <img
-        src={react}
-        alt="react-icon"
-        className="skills-icons"
-      />
-      <img
-        src={redux}
-        alt="redux-icon"
-        className="skills-icons"
-      />
-      <img
-        src={mysql}
-        alt="mysql-icon"
-        className="skills-icons"
-      />
-      <img
-        src={docker}
-        alt="docker-icon"
-        className="skills-icons"
-      />
+      { showTitle && <h1>Passe o mouse para ler mais sobre minhas skills 😉</h1> }
+      { skills.map((s, i) => (
+        <div key={s.name}>
+          <img
+            src={s.icon}
+            alt={s.name}
+            className="skill-icons"
+            onMouseOver={() => showDescription(i)}
+            onMouseOut={hiddeDescription}
+            onFocus=""
+            onBlur=""
+          />
+          {showSkill[i] === true && (
+            <div className="description">
+              <h3>{ s.description }</h3>
+            </div>
+          )}
+        </div>
+      )) }
     </div>
   );
 }
