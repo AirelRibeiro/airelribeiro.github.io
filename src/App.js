@@ -6,6 +6,7 @@ import Projects from './routes/Projects';
 import Contact from './routes/Contact';
 import Aside from './components/Aside';
 import Skills from './routes/Skills';
+import Header from './components/Header';
 import './style/App.css';
 
 // display: flex;
@@ -15,8 +16,9 @@ function App() {
   const [showAside, setShowAside] = useState(false);
   return (
     <div className="app">
-      <MenuIcon className="menu" fontSize="large" onClick={() => setShowAside(!showAside)} />
+      <MenuIcon className="menu" id="a" fontSize="large" onClick={() => setShowAside(!showAside)} />
       <Aside showAside={showAside} setShowAside={setShowAside} />
+      <Header />
       <div>
         <Routes>
           <Route path="/projects" element={<Projects />} />
@@ -25,6 +27,16 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
+      <footer>
+        <a href="../helpers/airel-curriculo.pdf" download>
+          <img
+            src="https://img.icons8.com/nolan/512/open-resume.png"
+            alt="cv-icon"
+            className="header-icons"
+          />
+        </a>
+        <p>Cliando aqui você pode acessar meu currículo!</p>
+      </footer>
     </div>
   );
 }
