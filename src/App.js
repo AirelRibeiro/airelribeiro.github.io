@@ -27,7 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
-      <footer>
+      {/* <footer>
         <a href="../helpers/airel-curriculo.pdf" download>
           <img
             src="https://img.icons8.com/nolan/512/open-resume.png"
@@ -36,7 +36,7 @@ function App() {
           />
         </a>
         <p>Cliando aqui você pode acessar meu currículo!</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }
