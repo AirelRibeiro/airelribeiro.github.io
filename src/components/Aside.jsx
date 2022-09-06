@@ -39,6 +39,14 @@ export default function Aside({ showAside, setShowAside }) {
         </Link>
         <a href="../helpers/airel-curriculo.pdf" download onClick={() => setShowAside(false)}>
           <img
+            src="https://img.icons8.com/nolan/512/open-resume.png"
+            alt="cv-icon"
+            className="aside-icons"
+          />
+          <p>Currículo</p>
+        </a>
+        <Link to="/contact" onClick={() => setShowAside(false)}>
+          <img
             src="https://img.icons8.com/nolan/512/apple-contacts.png"
             alt="contact-icon"
             className="aside-icons"
