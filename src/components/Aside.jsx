@@ -21,7 +21,7 @@ export default function Aside({ showAside, setShowAside }) {
           />
           <p>Home</p>
         </Link>
-        <Link to="/skills">
+        <Link to="/skills" onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/maintenance.png"
             alt="skills-icon"
