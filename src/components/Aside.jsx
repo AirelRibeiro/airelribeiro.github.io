@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import '../style/Aside.css';
 import Drawer from '@mui/material/Drawer';
+import cv from '../helpers/airel-curriculo.pdf';
 
 export default function Aside({ showAside, setShowAside }) {
   return (
@@ -37,7 +38,7 @@ export default function Aside({ showAside, setShowAside }) {
           />
           <p>Projetos</p>
         </Link>
-        <a href="../helpers/airel-curriculo.pdf" download onClick={() => setShowAside(false)}>
+        <a href={cv} download="airel-ribeiro-CV" onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/open-resume.png"
             alt="cv-icon"
