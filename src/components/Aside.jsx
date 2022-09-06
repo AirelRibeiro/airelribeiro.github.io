@@ -13,7 +13,7 @@ export default function Aside({ showAside, setShowAside }) {
       className="teste"
     >
       <div className="aside">
-        <Link to="/">
+        <Link to="/" onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/home.png"
             alt="home-icon"
@@ -27,7 +27,7 @@ export default function Aside({ showAside, setShowAside }) {
             className="aside-icons"
           />
         </Link>
-        <Link to="/projects">
+        <Link to="/projects" onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/code--v2.png"
             alt="home-icon"
