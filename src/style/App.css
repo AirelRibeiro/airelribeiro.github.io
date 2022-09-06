@@ -16,6 +16,8 @@ footer {
 @media screen and (max-width: 576px) {
   .app {
     background-color: rgba(248, 226, 246, 0.336);
+    position: fixed;
+    width: 100vw;
   }
 
   #a {

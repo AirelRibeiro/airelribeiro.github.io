@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cv from '../helpers/airel-curriculo.pdf';
 
 export default function Header() {
   return (
@@ -25,13 +26,13 @@ export default function Header() {
           className="header-icons"
         />
       </Link>
-      {/* <a href="../helpers/airel-curriculo.pdf" download>
+      <a href={cv} download="airel-ribeiro-CV">
         <img
           src="https://img.icons8.com/nolan/512/open-resume.png"
           alt="cv-icon"
           className="header-icons"
         />
-      </a> */}
+      </a>
       <Link to="/contact">
         <img
           src="https://img.icons8.com/nolan/512/apple-contacts.png"
