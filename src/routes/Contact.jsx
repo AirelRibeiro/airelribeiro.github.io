@@ -41,7 +41,7 @@ function Contact() {
               className="icon"
             />
           </a>
-          <a href="vvvvvvvvvvvvvvvv" target="blanck">
+          <a href="https://wa.me/5581995925479" target="blanck">
             <img
               src={whatsappIcon}
               alt="whatsapp-Icon"
