@@ -2,3 +2,42 @@
   margin-left: 50px;
   margin-top: 50px;
 }
+
+.header {
+  display: none;
+  position: absolute;
+}
+
+footer {
+  display: none;
+  position: absolute;
+}
+
+@media screen and (max-width: 576px) {
+  .app {
+    background-color: rgba(248, 226, 246, 0.336);
+  }
+
+  #a {
+    display: none;
+  }
+
+  .header {
+    background-color: rgba(253, 242, 227, 0.6);
+    display: flex;
+    height: 10vh;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+  }
+
+  .header-icons {
+    height: 15vw;
+    width: 12vw;
+  }
+
+  footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

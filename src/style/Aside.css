@@ -26,3 +26,9 @@ a p {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+  p {
+    /* background-color: red; */
+  }
+}
