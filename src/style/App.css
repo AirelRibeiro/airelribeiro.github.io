@@ -28,6 +28,7 @@ footer {
     height: 10vh;
     justify-content: space-evenly;
     padding-top: 2vh;
+    width: 100vw;
   }
 
   .header-icons {

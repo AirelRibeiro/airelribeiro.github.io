@@ -28,13 +28,17 @@
   .home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     margin: auto;
     text-align: center;
     width: 85vw;
     z-index: 1;
+  }
+
+  .home h1 {
+    margin-top: 4vh;
   }
   
   .home div {
@@ -43,7 +47,7 @@
     color: rgb(26, 0, 75);
     font-family: 'Bebas Neue', cursive;
     margin: auto;
-    margin-top: 16vh;
+    margin-top: 30vh;
     padding: 6%;
     text-align: center;
     width: 75vw;
