@@ -19,6 +19,7 @@ export default function Aside({ showAside, setShowAside }) {
             alt="home-icon"
             className="aside-icons"
           />
+          <p>Home</p>
         </Link>
         <Link to="/skills">
           <img
@@ -26,6 +27,7 @@ export default function Aside({ showAside, setShowAside }) {
             alt="home-icon"
             className="aside-icons"
           />
+          <p>Habilidades</p>
         </Link>
         <Link to="/projects" onClick={() => setShowAside(false)}>
           <img
@@ -33,6 +35,7 @@ export default function Aside({ showAside, setShowAside }) {
             alt="home-icon"
             className="aside-icons"
           />
+          <p>Projetos</p>
         </Link>
         <a href="../helpers/airel-curriculo.pdf" download onClick={() => setShowAside(false)}>
           <img
@@ -40,6 +43,7 @@ export default function Aside({ showAside, setShowAside }) {
             alt="home-icon"
             className="aside-icons"
           />
+          <p>Contato</p>
         </Link>
       </div>
     </Drawer>
