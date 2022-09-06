@@ -34,7 +34,7 @@ const skills = [
   {
     name: 'docker',
     icon: docker,
-    description: 'Docker é uma plataforma que permite a criação e administração de ambientes virtuais isolados; ele possibilita emapacotar aplicações ou ambientes, tornando-os acessíveeis em qualque máquina com o Docker instalado.',
+    description: 'Docker é uma plataforma que permite a criação e administração de ambientes virtuais isolados; ele possibilita empacotar aplicações ou ambientes, tornando-os acessíveis em qualque máquina com o Docker instalado.',
   },
   {
     name: 'git',
@@ -79,17 +79,17 @@ const skills = [
   {
     name: 'jest',
     icon: jest,
-    description: 'É um framework de testes desenvolvido pelo Facebook com o objetivo de rodar os testes de uma maneira eficiente e com menos configurações.',
+    description: 'Jeste é um framework de testes desenvolvido pelo Facebook com o objetivo de rodar os testes de uma maneira eficiente e com menos configurações.',
   },
   {
     name: 'react',
     icon: react,
-    description: 'É uma biblioteca JavaScript declarativa que foi desenvolvida pelo Facebook em 2011 com o objetivo de criar aplicações front-end. Eficiente e flexível, React é uma das bibliotecas mais prestigiadas do mercado, presente em mais de 3 milhões de projetos.',
+    description: 'O React é uma biblioteca JavaScript declarativa que foi desenvolvida pelo Facebook em 2011 com o objetivo de criar aplicações front-end. Eficiente e flexível, React é uma das bibliotecas mais prestigiadas do mercado, presente em mais de 3 milhões de projetos.',
   },
   {
     name: 'redux',
     icon: redux,
-    description: 'É uma biblioteca construída para gerenciar os estados de uma aplicação, ela possibilita que caso os componentes precisem acessar o estado uns dos outros, acessem as informações no estado geral, suportado pelo Redux.',
+    description: 'Redux é uma biblioteca construída para gerenciar os estados de uma aplicação, ela possibilita que caso os componentes precisem acessar o estado uns dos outros, acessem as informações no estado geral, suportado pelo Redux.',
   },
   {
     name: 'rtl',
