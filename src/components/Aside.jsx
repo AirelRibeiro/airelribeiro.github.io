@@ -34,7 +34,7 @@ export default function Aside({ showAside, setShowAside }) {
             className="aside-icons"
           />
         </Link>
-        <Link to="/contact">
+        <a href="../helpers/airel-curriculo.pdf" download onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/apple-contacts.png"
             alt="home-icon"
