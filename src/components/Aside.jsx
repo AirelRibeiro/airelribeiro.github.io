@@ -24,7 +24,7 @@ export default function Aside({ showAside, setShowAside }) {
         <Link to="/skills">
           <img
             src="https://img.icons8.com/nolan/512/maintenance.png"
-            alt="home-icon"
+            alt="skills-icon"
             className="aside-icons"
           />
           <p>Habilidades</p>
@@ -32,7 +32,7 @@ export default function Aside({ showAside, setShowAside }) {
         <Link to="/projects" onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/code--v2.png"
-            alt="home-icon"
+            alt="projects-icon"
             className="aside-icons"
           />
           <p>Projetos</p>
@@ -40,7 +40,7 @@ export default function Aside({ showAside, setShowAside }) {
         <a href="../helpers/airel-curriculo.pdf" download onClick={() => setShowAside(false)}>
           <img
             src="https://img.icons8.com/nolan/512/apple-contacts.png"
-            alt="home-icon"
+            alt="contact-icon"
             className="aside-icons"
           />
           <p>Contato</p>
