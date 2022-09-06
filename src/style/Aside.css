@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .aside {
   align-items: center;
   background-color: rgba(255, 187, 252, 0.5);
@@ -9,6 +11,18 @@
 }
 
 .aside-icons {
-  height: 100px;
-  width: 100px;
+  height: 10vh;
+  width: 10vh;
+}
+
+a p {
+  color: #BD27FF;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
