@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb5dea45.css",
-    "main.js": "/static/js/main.d7548b9f.js",
+    "main.css": "/static/css/main.4a3a1e79.css",
+    "main.js": "/static/js/main.88a8eacc.js",
     "static/media/ss.png": "/static/media/ss.140304771ec5b28fd548.png",
     "static/media/star.gif": "/static/media/star.bfb208e1f2a4b1a2467b.gif",
     "static/media/airel-curriculo.pdf": "/static/media/airel-curriculo.6e76a80ec0d9f46414bc.pdf",
@@ -35,11 +35,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
     "static/media/css3.svg": "/static/media/css3.1323e04024709c8a25e60cd9db22db48.svg",
     "static/media/html5.svg": "/static/media/html5.8e6289ed1eb0b9f348a463db8fa3e38c.svg",
-    "main.bb5dea45.css.map": "/static/css/main.bb5dea45.css.map",
-    "main.d7548b9f.js.map": "/static/js/main.d7548b9f.js.map"
+    "main.4a3a1e79.css.map": "/static/css/main.4a3a1e79.css.map",
+    "main.88a8eacc.js.map": "/static/js/main.88a8eacc.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb5dea45.css",
-    "static/js/main.d7548b9f.js"
+    "static/css/main.4a3a1e79.css",
+    "static/js/main.88a8eacc.js"
   ]
 }
