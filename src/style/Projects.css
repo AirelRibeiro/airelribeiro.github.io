@@ -51,7 +51,8 @@
 
 .project-description {
   font-family: 'IBM Plex Serif', serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: 600;
   text-align: center;
   width: 30vw;
 }
@@ -66,14 +67,14 @@
 .tecnology {
   filter: contrast(500%) saturate(500%) brightness(0) grayscale(500%);
   margin: 1vh;
-  width: 7vh;
+  width: 6vh;
 }
 
-a {
-  color: rgb(163, 19, 19);
+.repos {
+  color: black;
   font-family: 'IBM Plex Serif', serif;
   font-size: 1.5em;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 

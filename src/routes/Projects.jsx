@@ -30,7 +30,7 @@ function Projects() {
                       />
                     ))}
                   </div>
-                  <a href={p.repository} target="_blank" rel="noreferrer">Acesse aqui o repositório desse projeto</a>
+                  <a href={p.repository} target="_blank" rel="noreferrer" className="repos">Acesse aqui o repositório desse projeto</a>
 
                 </div>
               </div>
