@@ -6,14 +6,8 @@ function Home() {
       <h1>Oi, eu sou Airel!</h1>
       <div className="descricao">
         <p>
-          Apaixonade por palavras, informação e tecnologia;
-          também acredito em dar suporte e apoiar pessoas.
-        </p>
-        <p>
-          Vejo nas tecnologias de informação e comunicação incríveis possibilidades de impactar
-          positivamente a sociedade e tranformar a vida das pessoas.
-          Por isso estudo para me tornar desenvolvedore Full Stack e
-          participar ativamente dessa transformação.
+          O que gosto mais em tecnologia é o ímpeto e a atualização constante; a forma como pode nos aproximar, facilitar desde pequenas atividades do dia a dia até proporcionar coisas antes inimagináveis.
+          Essa dinâmica tem transformado o mundo e nossa relação com ele e eu busco contribuir para essa transformação como pessoa desenvolvedora.
         </p>
       </div>
     </div>

@@ -1,17 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+.hammer {
+  animation: hammer infinite 1.5s linear;
+  align-self: center;
+  margin: 5vh;
+  height: 40vh;
+  width: 40vw;
+}
+
+.projects-title {
+  align-self: center;
+  text-align: center;
+}
+
 .projects {
+  align-self: center;
+  background-color: rgba(253, 242, 227, 0.767);
+  border-radius: 10px;
+  height: 60vh;
+  margin: 10vh auto 15vh auto;
+  width: 85%;
+}
+
+.carousel {
+  border-radius: 2%;
+  height: 60vh;
+}
+
+.items {
+  display: flex;
+  height: 60vh;
+  width: 100vw;
+}
+
+.image {
+  align-self: center;
+  margin: 5vh;
+  height: 40vh;
+  width: 40vw;
+}
+
+.informations {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 50vh;
-  justify-content: space-evenly;
-  margin-top: 10vh;
+  justify-content: space-around;
+  padding: 5vh;
+  /* width: 50vw; */
 }
 
-.hammer-icon {
-  height: 30vh;
-  width: 30vh;
-  animation: hammer infinite 1.5s linear;
+.project-description {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: center;
+  width: 30vw;
 }
+
+.tecnologies-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 20vw;
+}
+
+.tecnology {
+  filter: contrast(500%) saturate(500%) brightness(0) grayscale(500%);
+  margin: 1vh;
+  width: 6vh;
+}
+
+.repos {
+  color: black;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+
 
 @keyframes hammer {
   from {
